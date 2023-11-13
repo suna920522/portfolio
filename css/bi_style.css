@@ -1,0 +1,62 @@
+@charset="utf-8"; 
+*{margin:0;padding:0;}
+body{
+background-color:#ffffff;
+}
+div img{
+  margin:0 auto;
+  display: block;
+}
+.fixed{
+  position: fixed;
+  right:100px;
+  bottom:100px;
+}
+.fixed:hover{
+  opacity:0.8;
+}
+.fixed2{
+  position: fixed;
+  right:100px;
+  bottom:40px;
+}
+.fixed2:hover{
+  opacity:0.8;
+} */
+*{margin:0; padding:0;}
+a{text-decoration:none;
+  color:#000;}
+
+.fixed_box{position:fixed;
+  bottom:40px;
+  right:30px;
+  width:40px;}
+#top{
+  max-width:1320px;
+  margin:0 auto;
+}
+#top img{
+  width:100%;
+  display: block;
+}
+ul{list-style:none; 
+position:fixed;
+bottom:50px;
+right:50px;
+text-align:center;}
+ul li{
+margin: 10px;
+}
+ul li a{
+display: inline-block;
+padding: 10px 20px;
+border-radius: 10px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+width: 50px;
+}
+.seiva_btn li a{
+background: #2b825b;
+}
+a{
+color: #fff;
+}
